@@ -1,0 +1,11 @@
+<p>inicio works!</p>
+<p-galleria [value]="images">
+  <ng-template pTemplate="item" let-item >
+      <img [src]="item.previewImageSrc" [alt]="item.alt" width="60%"/>
+  </ng-template>
+  <ng-template pTemplate="thumbnail" let-item>
+    <div class="grid grid-nogutter justify-content-center">
+        <img [src]="item.thumbnailImageSrc" style="display: block;" width = "150px"/>
+    </div>
+</ng-template>
+</p-galleria>
