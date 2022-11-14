@@ -9,6 +9,13 @@ import {GalleriaModule} from 'primeng/galleria';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { ProductoComponent } from './componentes/producto/producto.component';
+import { ChartModule } from 'primeng/chart';
+import { CardModule } from 'primeng/card';
+import { ButtonModule } from 'primeng/button';
+import {CarouselModule} from 'primeng/carousel';
+import {InputTextareaModule} from 'primeng/inputtextarea';
+import {InputTextModule} from 'primeng/inputtext';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +29,14 @@ import { ProductoComponent } from './componentes/producto/producto.component';
     AppRoutingModule,
     MenubarModule,
     GalleriaModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartModule,
+    CardModule,
+    ButtonModule,
+    CarouselModule,
+    InputTextareaModule,
+    InputTextModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

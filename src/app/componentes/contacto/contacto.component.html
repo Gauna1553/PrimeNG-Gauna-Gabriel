@@ -1,1 +1,27 @@
-<p>contacto works!</p>
+<div class="col-3">
+<form>
+<h4>
+    Nombre
+    <br>
+    <input type="text" pInputText size = "30"/>
+    <br>
+    Apellido
+    <br>
+    <input type="text" pInputText size = "30"/>
+    <br>
+    Correo
+    <br>
+    <input type="email" pInputText size = "30"/>
+    <br>
+    Telefono
+    <br>
+    <input type="number"  pInputText size = "30"/>
+    <p>
+        Realice su queja aqui
+        <br>
+        <textarea [rows]="5" [cols]="30" pInputTextarea [autoResize]="true"></textarea>
+    </p>
+</h4>
+<input type="submit" value="Enviar">
+</form>
+</div>
